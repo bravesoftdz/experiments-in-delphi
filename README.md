@@ -1,7 +1,7 @@
 
 # Experiments in Delphi
 
-An assortment of coding experiments in Delphi.
+An assortment of Delphi based coding experiments.
 
 ## License
 
