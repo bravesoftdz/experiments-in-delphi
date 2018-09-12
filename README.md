@@ -5,28 +5,27 @@ An assortment of Delphi based coding experiments, which are mostly considered al
 
 #### Balls - Collision Manager
 
-![Balls](screenshots/balls-collision-manager.png)
-
 A simple 2D collision manager that aims to optimize the detection of object collision.
+
+![Balls](screenshots/balls-collision-manager.png)
 
 #### Clock
 
-![Clock](screenshots/clock.png)
+An analogue desktop clock application.
 
-An analogue clock desktop application.
+![Clock](screenshots/clock.png)
 
 #### Starfield
 
-![Starfield](screenshots/starfield.png)
-
 A simulation of stars travelling towards the screen.
+
+![Starfield](screenshots/starfield.png)
 
 #### Virtual Keyboard
 
-![Virtual Keyboard](screenshots/virtual-keyboard.png)
-
 A virtual keyboard simulator that uses Win32 to communicate and send key strokes to other applications.
 
+![Virtual Keyboard](screenshots/virtual-keyboard.png)
 
 ## License
 
