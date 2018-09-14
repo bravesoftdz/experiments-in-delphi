@@ -27,6 +27,23 @@ A virtual keyboard simulator that uses Win32 to communicate and send key strokes
 
 ![Virtual Keyboard](screenshots/virtual-keyboard.png)
 
+##### Todo List:
+* If DEL button is held down then send a CTRL+DEL key press
+* A special button for SYMBOLS
+* Holding a letter shows other variations/accents
+  *  "-" -> "-", "�", "�"
+  *  "$" -> "=W=", "�", "$", "�", "�"
+  *  "&" -> "&", "�"
+  *  "e" -> " ", " ", " ", "�", "�", "e", "�", "�"
+  *  and others (a, c, e, i, d, n, o, u, y)
+* Portrait/landscape mode (90 degrees rotation)
+* When SHIFT button is held down the following should happen:
+  * The SHIFT button is shaded
+  * The letters are CAPITALIZED/LOWERED upon SHIFT state
+* SHIFT button is initially down (active)
+* Implement a prediction mode (e.g. T9, others)
+  * Prediction mode should be controllable (enable/disable)
+
 ## License
 
 Experiments in Delphi is licensed under the MIT License. See [LICENSE](LICENSE.md) for details.

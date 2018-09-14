@@ -16,23 +16,6 @@
 
 unit Main;
 
-// todo: If DEL button is held down then send a CTRL+DEL key press
-// todo: A special button for SYMBOLS
-// todo: Holding a letter shows other variations/accents
-//       "-" -> "-", "�", "�"
-//       "$" -> "=W=", "�", "$", "�", "�"
-//       "&" -> "&", "�"
-//       "e" -> " ", " ", " ", "�", "�", "e", "�", "�"
-//       and others (check Character Map application) (a, c, e, i, d, n, o, u, y)
-// todo: Portrait/landscape mode (90 degrees rotation)
-// todo: When SHIFT button is down the following must happen:
-//       1) The SHIFT button is shaded
-//       2) The letters are CAPITALIZED/LOWERED upon SHIFT state
-// todo: SHIFT button is initially down (active)
-// todo: Implement a prediction mode (e.g. T9, others)
-// todo: Prediction mode must be disableable
-// todo: Buttons are square
-
 interface
 
 uses
