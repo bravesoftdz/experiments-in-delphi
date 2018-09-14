@@ -1,12 +1,28 @@
+{******************************************************************************}
+{                                                                              }
+{ Virtual Keyboard                                                             }
+{                                                                              }
+{ The contents of this file are subject to the MIT License (the "License");    }
+{ you may not use this file except in compliance with the License.             }
+{ You may obtain a copy of the License at https://opensource.org/licenses/MIT  }
+{                                                                              }
+{ Software distributed under the License is distributed on an "AS IS" basis,   }
+{ WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for }
+{ the specific language governing rights and limitations under the License.    }
+{                                                                              }
+{ Unit owner:    MiÅ¡el KrstoviÄ‡                                                }
+{                                                                              }
+{******************************************************************************}
+
 unit Main;
 
 // todo: If DEL button is held down then send a CTRL+DEL key press
 // todo: A special button for SYMBOLS
 // todo: Holding a letter shows other variations/accents
-//       "-" -> "-", "—", "•"
-//       "$" -> "=W=", "£", "$", "€", "¥"
-//       "&" -> "&", "§"
-//       "e" -> " ", " ", " ", "ë", "é", "e", "è", "ê"
+//       "-" -> "-", "ï¿½", "ï¿½"
+//       "$" -> "=W=", "ï¿½", "$", "ï¿½", "ï¿½"
+//       "&" -> "&", "ï¿½"
+//       "e" -> " ", " ", " ", "ï¿½", "ï¿½", "e", "ï¿½", "ï¿½"
 //       and others (check Character Map application) (a, c, e, i, d, n, o, u, y)
 // todo: Portrait/landscape mode (90 degrees rotation)
 // todo: When SHIFT button is down the following must happen:
@@ -16,8 +32,6 @@ unit Main;
 // todo: Implement a prediction mode (e.g. T9, others)
 // todo: Prediction mode must be disableable
 // todo: Buttons are square
-
-
 
 interface
 
@@ -103,7 +117,7 @@ type
     { Private declarations }
     GlobalShiftState : Boolean;
     LettersVisible : Boolean;
-    
+
     procedure CreateParams(var Params: TCreateParams); override;
     procedure WMMouseActivate(var Message: TWMMouseActivate); message WM_MOUSEACTIVATE;
     procedure WMActivate(var Message: TWMActivate); message WM_ACTIVATE;

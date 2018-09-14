@@ -1,3 +1,19 @@
+{******************************************************************************}
+{                                                                              }
+{ Starfield                                                                    }
+{                                                                              }
+{ The contents of this file are subject to the MIT License (the "License");    }
+{ you may not use this file except in compliance with the License.             }
+{ You may obtain a copy of the License at https://opensource.org/licenses/MIT  }
+{                                                                              }
+{ Software distributed under the License is distributed on an "AS IS" basis,   }
+{ WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for }
+{ the specific language governing rights and limitations under the License.    }
+{                                                                              }
+{ Unit owner:    Mišel Krstović                                                }
+{                                                                              }
+{******************************************************************************}
+
 unit Main;
 
 interface
@@ -9,7 +25,7 @@ uses
 
 const
   maxz = 1000;
-  
+
 type
   TArrayOfDouble = class
     value : array of Double;
@@ -102,7 +118,7 @@ begin
     trunc(y+screenHeight/2),
     trunc(x + screenWidth/2)+sz,
     trunc(y+screenHeight/2)+sz//,
-//    grays[trunc((maxz-z)*255/maxz)]    
+//    grays[trunc((maxz-z)*255/maxz)]
    );
 	 a.value[2] := a.value[2] - speed;
 	 if(a.value[2]<=0) then begin
